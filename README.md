@@ -1,12 +1,12 @@
 # 📡 EDA Tool Telemetry Analysis Pipeline
 
-> An end-to-end data engineering and analytics pipeline for processing, analyzing, and visualizing performance telemetry from EDA tool executions — built on Azure Databricks, Python, SQL, and Power BI.
+> An end-to-end data engineering and analytics pipeline for processing, analyzing, and visualizing performance telemetry from EDA tool executions - built on Azure Databricks, Python, SQL, and Power BI.
 
 ---
 
 ## 🎯 Problem Statement
 
-EDA tools generate massive volumes of performance telemetry — runtime metrics, memory usage, job failure rates, and error patterns. Without automated analysis, engineers spend hours manually reviewing logs to detect regressions and anomalies.
+EDA tools generate massive volumes of performance telemetry - runtime metrics, memory usage, job failure rates, and error patterns. Without automated analysis, engineers spend hours manually reviewing logs to detect regressions and anomalies.
 
 This pipeline automates that process: from raw telemetry ingestion → anomaly detection → automated KPI dashboards → stakeholder-ready reports.
 
@@ -17,15 +17,15 @@ This pipeline automates that process: from raw telemetry ingestion → anomaly d
 ```
 Raw Telemetry Logs
         ↓
-[ Ingestion & Validation ] — Python + SQL
+[ Ingestion & Validation ] - Python + SQL
         ↓
-[ Data Transformation ]  — Azure Databricks + PySpark
+[ Data Transformation ]  - Azure Databricks + PySpark
         ↓
-[ Anomaly Detection ]    — Isolation Forest + Z-Score
+[ Anomaly Detection ]    - Isolation Forest + Z-Score
         ↓
-[ KPI Dashboard ]        — Power BI
+[ KPI Dashboard ]        - Power BI
         ↓
-[ Automated Reports ]    — Scheduled weekly summaries
+[ Automated Reports ]    - Scheduled weekly summaries
 ```
 
 ---
@@ -34,7 +34,7 @@ Raw Telemetry Logs
 
 - **Automated ingestion pipeline** processing 1M+ telemetry records using Python and SQL
 - **Anomaly detection** using Isolation Forest to flag performance regressions automatically
-- **Trend analysis** — week-over-week runtime and failure rate tracking by tool type
+- **Trend analysis** - week-over-week runtime and failure rate tracking by tool type
 - **Power BI dashboard** with 15+ KPI visualizations (runtime, memory, failure rate, error codes)
 - **Automated weekly report** summarizing pipeline health for stakeholders
 - **Dockerized pipeline** with GitHub Actions CI/CD for scheduled runs
