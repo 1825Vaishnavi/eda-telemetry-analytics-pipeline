@@ -1,0 +1,22 @@
+[2026-04-10T05:35:12.902+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-10T05:35:12.903+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-10T05:35:12.923+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-10T05:35:12.924+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-10T05:36:07.014+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-04-10T05:35:13.105+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/telemetry_pipeline_dag.py    168  -53.98s           0           0
+================================================================================
+[2026-04-10T05:36:37.155+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/telemetry_pipeline_dag.py    178  0.01s             1           0  -53.71s         2026-04-10T05:35:38
+================================================================================
+[2026-04-10T05:36:03.253+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
