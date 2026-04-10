@@ -1741,3 +1741,143 @@
 [2026-04-10T07:01:59.049+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:01:59.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-10T07:01:59.205+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:01:59.204+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
 [2026-04-10T07:01:59.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.597 seconds
+[2026-04-10T07:02:29.851+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:02:29.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:02:29.854+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:02:29.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:02:29.884+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:02:29.921+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:02:29.921+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:02:29.943+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:02:29.943+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:02:29.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.118 seconds
+[2026-04-10T07:03:00.328+0000] {processor.py:161} INFO - Started process (PID=1624) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:00.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:03:00.341+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:00.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:54.505+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:00.512+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:00.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:03:00.688+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:00.688+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:03:00.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.490 seconds
+[2026-04-10T07:04:09.578+0000] {processor.py:161} INFO - Started process (PID=1629) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:09.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:04:09.581+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:09.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:09.608+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:15.547+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:15.547+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:03:15.586+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:15.586+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:03:15.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.139 seconds
+[2026-04-10T07:04:14.616+0000] {processor.py:161} INFO - Started process (PID=1634) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:14.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:04:14.618+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:14.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:20.541+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:20.567+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:20.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:03:20.585+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:20.585+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:03:20.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.088 seconds
+[2026-04-10T07:03:50.836+0000] {processor.py:161} INFO - Started process (PID=1639) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:50.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:03:50.840+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:50.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:50.882+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:03:50.934+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:50.933+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:03:50.978+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:03:50.977+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:03:51.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.190 seconds
+[2026-04-10T07:04:21.295+0000] {processor.py:161} INFO - Started process (PID=1644) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:21.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:04:21.297+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:21.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:21.321+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:21.351+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:21.351+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:04:21.373+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:21.373+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:04:21.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.103 seconds
+[2026-04-10T07:05:39.721+0000] {processor.py:161} INFO - Started process (PID=1649) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:39.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:05:39.724+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:39.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:39.752+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:45.698+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:45.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:04:45.728+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:45.727+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:04:45.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.135 seconds
+[2026-04-10T07:04:50.671+0000] {processor.py:161} INFO - Started process (PID=1654) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:50.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:04:50.674+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:50.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:50.702+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:04:50.750+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:50.750+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:04:50.777+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:04:50.777+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:04:50.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.136 seconds
+[2026-04-10T07:05:21.826+0000] {processor.py:161} INFO - Started process (PID=1661) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:21.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:05:21.828+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:21.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:21.845+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:21.870+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:21.870+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:05:21.891+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:21.891+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:05:21.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.098 seconds
+[2026-04-10T07:05:52.556+0000] {processor.py:161} INFO - Started process (PID=1666) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:52.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:05:52.561+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:52.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:52.602+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:52.659+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:52.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:05:52.703+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:52.703+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:05:52.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.196 seconds
+[2026-04-10T07:05:55.442+0000] {processor.py:161} INFO - Started process (PID=1671) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:55.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:05:55.445+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:55.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:55.477+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:05:55.523+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:55.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:05:55.558+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:05:55.558+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:05:55.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.148 seconds
+[2026-04-10T07:06:26.098+0000] {processor.py:161} INFO - Started process (PID=1678) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:26.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:06:26.101+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:26.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:26.136+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:26.183+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:26.183+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:06:26.228+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:26.228+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:06:26.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.185 seconds
+[2026-04-10T07:06:56.634+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:56.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:06:56.638+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:56.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:56.680+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:06:56.727+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:56.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:06:56.772+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:06:56.771+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:06:56.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.195 seconds
+[2026-04-10T07:07:26.966+0000] {processor.py:161} INFO - Started process (PID=1688) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:26.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:07:26.972+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:26.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:27.011+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:27.102+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:27.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:07:27.170+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:27.169+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:07:27.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.317 seconds
+[2026-04-10T07:07:57.356+0000] {processor.py:161} INFO - Started process (PID=1693) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:57.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:07:57.360+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:57.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:57.381+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:07:57.410+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:57.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:07:57.430+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:07:57.430+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:07:57.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.097 seconds
+[2026-04-10T07:08:27.585+0000] {processor.py:161} INFO - Started process (PID=1698) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:27.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:08:27.587+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:27.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:27.605+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:27.633+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:27.633+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:08:27.656+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:27.656+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:08:27.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.094 seconds
+[2026-04-10T07:08:57.977+0000] {processor.py:161} INFO - Started process (PID=1703) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:57.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:08:57.988+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:57.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:58.022+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:08:58.067+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:58.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:08:58.101+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:08:58.101+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:08:58.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.174 seconds
+[2026-04-10T07:09:01.042+0000] {processor.py:161} INFO - Started process (PID=1708) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:01.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:09:01.047+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:01.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:01.098+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:01.147+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:01.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:09:01.179+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:01.179+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:09:01.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.173 seconds
+[2026-04-10T07:09:31.459+0000] {processor.py:161} INFO - Started process (PID=1715) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:31.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:09:31.463+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:31.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:31.496+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:09:31.536+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:31.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:09:31.567+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:09:31.567+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:09:31.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.142 seconds
+[2026-04-10T07:10:01.692+0000] {processor.py:161} INFO - Started process (PID=1720) to work on /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:10:01.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/telemetry_pipeline_dag.py for tasks to queue
+[2026-04-10T07:10:01.694+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:10:01.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:10:01.716+0000] {processor.py:840} INFO - DAG(s) 'vehicle_telemetry_ml_pipeline' retrieved from /opt/airflow/dags/telemetry_pipeline_dag.py
+[2026-04-10T07:10:01.744+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:10:01.743+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-10T07:10:01.762+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:10:01.761+0000] {dag.py:3823} INFO - Setting next_dagrun for vehicle_telemetry_ml_pipeline to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:10:01.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/telemetry_pipeline_dag.py took 0.093 seconds
