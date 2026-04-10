@@ -5,8 +5,11 @@
 
 ## 🏗️ Architecture Overview
 
+![Pipeline Architecture](docs/telemetry_pipeline_architecture.svg)
 ```
-<img width="1110" height="1182" alt="image" src="https://github.com/user-attachments/assets/7d130a4a-101e-455e-a02e-1314a3d120d2" />
+
+
+
 
 ```
 
