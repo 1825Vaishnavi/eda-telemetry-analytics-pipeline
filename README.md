@@ -6,36 +6,8 @@
 ## 🏗️ Architecture Overview
 
 ```
-Raw Telemetry (500K+ records)
-        │
-        ▼
-┌─────────────────────────────────────────────────────────┐
-│              Apache Airflow DAG (@daily)                 │
-│  ingest → validate → inference → store_results          │
-└─────────────────────────────────────────────────────────┘
-        │                          │
-        ▼                          ▼
-Azure Databricks              PostgreSQL
-PySpark + Delta Lake          Anomaly Results
-        │
-        ▼
-┌─────────────────────────────────────────────────────────┐
-│           3-Layer Anomaly Detection System               │
-│                                                         │
-│  Layer 1: Isolation Forest  (statistical outliers)      │
-│  Layer 2: PyTorch BiLSTM    (sequential degradation)    │
-│  Layer 3: JAX/Flax 1D CNN   (signal shape patterns)    │
-│                    ↓                                    │
-│           Ensemble Vote (majority 2/3)                  │
-└─────────────────────────────────────────────────────────┘
-        │                          │
-        ▼                          ▼
-FastAPI Inference API         MLflow Tracking
-/predict + /batch_predict     5+ experiment configs
-p95 latency < 10ms            Model Registry
-        │
-        ▼
-Evidently AI Drift Monitor
+<img width="1110" height="1182" alt="image" src="https://github.com/user-attachments/assets/7d130a4a-101e-455e-a02e-1314a3d120d2" />
+
 ```
 
 ---
