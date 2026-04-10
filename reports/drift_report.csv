@@ -1,0 +1,6 @@
+,ks_stat,p_value,drift
+speed_kmh,0.21,0.0,True
+battery_pct,0.1844,0.0,True
+temp_motor_c,0.2034,0.0,True
+voltage_v,0.1804,0.0,True
+current_a,0.2026,0.0,True
